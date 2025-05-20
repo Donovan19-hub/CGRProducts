@@ -1,0 +1,36 @@
+.herocontainer {
+    background: linear-gradient(rgb(245, 111, 66), rgb(240, 56, 5)15%, rgb(133, 42, 3)75%, rgb(26, 24, 24)98%);
+}
+
+.herocontainer h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.herocontainer p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.productheader {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.productbody {
+    border-radius: 30px;
+}
+
+.productimage {
+    border-radius: 30px;
+    border: solid 1px black;
+}
+
+.productitems:hover {
+    opacity: 0.7;
+    transform: scale(1.02);
+}
